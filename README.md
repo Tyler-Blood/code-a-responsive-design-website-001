@@ -5,7 +5,16 @@ repo for creating a responsive design website for WEB-240-3483 following The Net
 Starting files from <https://github.com/iamshaunjp/psd-to-wp/>
 
 ---
+---
 
 ## Tutorial 5
 
 used media queries to target elements when screen width is at or less than 700, 400 pixels.
+
+---
+
+## Tutorial 6
+
+changed media queries to target tablets and mobile.  
+talked about importance of designing with fluid measurements rather than static.  
+  % > px.
