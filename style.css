@@ -184,16 +184,46 @@ footer a{
 /* MEDIA QUERIES */
 
 /* tablets */
-/* targets featured li when the screen is less than or equal to 769px. covers width of most tablets */
+/* targets when the screen is less than or equal to 769px. covers width of most tablets */
 @media screen and (max-width: 768px){
-   #featured li{
-       width: 46%;
-   }
+    /* drops nav bar onto new line */
+    header nav{
+        float: none;
+        clear: left;
+        width: 100%;
+    }
+    /* brings nav bar a bit closer to the logo and centers */
+    header nav ul{
+        margin: 0;
+        padding: 0;
+    }
+    /* moves logo to center and removes margin to take it closer to nav bar */
+    h1.logo{
+        margin: 10px auto 0px;
+        float: none;
+    }
+    /* centers each item in nav and makes them take one line */
+    header nav ul li{
+        margin: 10px 0;
+        width: 20%;
+        padding: 0;
+        text-align: center;
+    }
+    /* makes images near bottom fit 2 per row */
+    #featured li{
+        width: 48%;
+    }
+    /* makes footer items 2 per row and centers items */
+    footer ul{
+        width: 48%;
+        text-align: center;
+    }
+
 }
 
 /* mobiles */
 /* 
-    targets featured li when screen is less than or equal to 480px. covers most phones.
+    targets when screen is less than or equal to 480px. covers most phones.
     overwrites last media query because css is compiled from the top down.
 */
 @media screen and (max-width: 480px){
