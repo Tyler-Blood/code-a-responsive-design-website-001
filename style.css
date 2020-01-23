@@ -183,17 +183,20 @@ footer a{
 
 /* MEDIA QUERIES */
 
-/* targets featured li when the screen is less than or equal to 700px */
-@media screen and (max-width: 700px){
+/* tablets */
+/* targets featured li when the screen is less than or equal to 769px. covers width of most tablets */
+@media screen and (max-width: 768px){
    #featured li{
        width: 46%;
    }
 }
+
+/* mobiles */
 /* 
-    targets featured li when screen is less than or equal to 400px. 
+    targets featured li when screen is less than or equal to 480px. covers most phones.
     overwrites last media query because css is compiled from the top down.
 */
-@media screen and (max-width: 400px){
+@media screen and (max-width: 480px){
     #featured li{
         width: 92%;
     }
