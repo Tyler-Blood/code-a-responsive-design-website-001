@@ -227,6 +227,71 @@ footer a{
     overwrites last media query because css is compiled from the top down.
 */
 @media screen and (max-width: 480px){
+    /* start mobile menu */
+    /* 
+        created the bar with the burger icon to be used for mobile nav
+        altered width and left positioning to make burger appear better on screen
+        removed some opacity to add back in when hovered
+     */
+    .burger-nav{
+        display: block;
+        height: 40px;
+        width: 110%;
+        background: url(images/burger.png) no-repeat 90% center;
+        background-color: #404040;
+        cursor: pointer;
+        left: -3%;
+        opacity: .9;
+        transition: .5s;
+    }
+    /* added to make look darker when hovered */
+    .burger-nav:hover{
+        opacity: 1;
+        transition: .5s;
+    }
+    /* same properties as .burger-nav but changed the icon to an 'x' instead of hamburger */
+    .burger-nav.open{
+        display: block;
+        height: 40px;
+        width: 110%;
+        background: url(images/burgerX.png) no-repeat 90% center;
+        background-color: #404040;
+        cursor: pointer;
+        left: -3%;
+        opacity: 1;
+    }
+    /* removed gaps from left and right side of nav bar */
+    header .wrapper{
+        width: 100%;
+        padding: 0;
+    }
+    /* used display none instead of overflow hidden for this */
+    header nav ul{
+        display: none;
+        background: #505050
+    }
+    /* class for after burger is clicked */
+    header nav ul.open{
+        display: block;
+        height: auto;
+    }
+    /* styling for nav list items */
+    header nav ul li{
+        float: none;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+    }
+    /* styling for nav links */
+    header nav ul li a{
+        color: #fff;
+        padding: 10px;
+        border-bottom: 1px solid #404040;
+        display: block;
+        margin: 0;
+    }
+    /* end mobile menu */    
+
     /* makes images near bottom fit 1 per row */
     #featured li{
         width: 90%;
