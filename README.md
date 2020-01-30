@@ -25,3 +25,10 @@ talked about importance of designing with fluid measurements rather than static.
 
 focused on styles at the tablet break point.  
 modified logo, nav, featured images and footer to be centered and fluid.
+
+---
+
+## Tutorial 8
+
+focused on styles at the mobile break point.
+modified banner, menu items, featured picture menu items, and footer.
