@@ -227,7 +227,28 @@ footer a{
     overwrites last media query because css is compiled from the top down.
 */
 @media screen and (max-width: 480px){
+    /* makes images near bottom fit 1 per row */
     #featured li{
-        width: 92%;
+        width: 90%;
+        margin: 20px 5%;
     }
+    /* makes footer items 1 per row and centers items */
+    footer ul{
+        width: 98%;
+        text-align: center;
+    }
+    /* makes menu items appear one per row and fill most of the screen on mobile */
+    #home-menu li{
+        float: none;
+        width: 96%;
+        margin: 30px 2% !important;
+    }
+    /* zooms banner and centers so no text is cut off */
+    #main-banner img{
+        position: relative;
+        width: 180%;
+        left: -40%;
+        
+    }
+
 }
