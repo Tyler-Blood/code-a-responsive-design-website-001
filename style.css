@@ -230,7 +230,7 @@ footer a{
     /* start mobile menu */
     /* hides overflow on mobiles */
     *{
-        overflow: hidden;
+        overflow-x: hidden;
     }
     /* 
         created the bar with the burger icon to be used for mobile nav
