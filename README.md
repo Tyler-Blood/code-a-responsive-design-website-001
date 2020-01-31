@@ -30,13 +30,13 @@ modified logo, nav, featured images and footer to be centered and fluid.
 
 ## Tutorial 8
 
-focused on styles at the mobile break point.
-modified banner, menu items, featured picture menu items, and footer.
+focused on styles at the mobile break point.  
+modified banner, menu items, featured picture menu items, and footer.  
 
 ---
 
 ## Tutorial 9
 
-added menu.js to add on click functionality to mobile menu
-added minified jquery
-added drop down menu functionality for mobile users
+added menu.js to add on click functionality to mobile menu  
+added minified jquery  
+added drop down menu functionality for mobile users  
