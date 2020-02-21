@@ -37,21 +37,21 @@ modified banner, menu items, featured picture menu items, and footer.
 
 ## Tutorial 9
 
-added menu.js to add on click functionality to mobile menu
-added minified jquery
-added drop down menu functionality for mobile users
+added menu.js to add on click functionality to mobile menu  
+added minified jquery  
+added drop down menu functionality for mobile users  
 
 ---
 
 ## Tutorial 10
 
-added picture element to polyfill images
-added new, smaller banner images to be used for smaller screens
-added code from picturefill to make polyfill work
+added picture element to polyfill images  
+added new, smaller banner images to be used for smaller screens  
+added code from picturefill to make polyfill work  
 
 ---
 
 ## Tutorial 11
 
-added bootstrap
-made featured images responsive through bootstrap columns
+added bootstrap  
+made featured images responsive through bootstrap columns  
