@@ -30,8 +30,8 @@ modified logo, nav, featured images and footer to be centered and fluid.
 
 ## Tutorial 8
 
-focused on styles at the mobile break point.
-modified banner, menu items, featured picture menu items, and footer.
+focused on styles at the mobile break point.  
+modified banner, menu items, featured picture menu items, and footer.  
 
 ---
 

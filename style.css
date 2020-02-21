@@ -228,12 +228,16 @@ footer a{
 */
 @media screen and (max-width: 480px){
     /* start mobile menu */
+    /* hides overflow on mobiles */
+    *{
+        overflow-x: hidden;
+    }
     /* 
         created the bar with the burger icon to be used for mobile nav
         altered width and left positioning to make burger appear better on screen
         removed some opacity to add back in when hovered
-     */
-    .burger-nav{
+    */
+     .burger-nav{
         display: block;
         height: 40px;
         width: 110%;
