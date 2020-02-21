@@ -48,3 +48,10 @@ added drop down menu functionality for mobile users
 added picture element to polyfill images
 added new, smaller banner images to be used for smaller screens
 added code from picturefill to make polyfill work
+
+---
+
+## Tutorial 11
+
+added bootstrap
+made featured images responsive through bootstrap columns
